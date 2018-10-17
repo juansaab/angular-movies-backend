@@ -36,7 +36,7 @@
     },
     "cover": {
       "default": "",
-      "type": "text"
+      "type": "string"
     }
   }
 }
