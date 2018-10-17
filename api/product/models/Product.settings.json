@@ -22,18 +22,6 @@
       "default": "",
       "type": "text"
     },
-    "cover": {
-      "model": "file",
-      "via": "related",
-      "plugin": "upload",
-      "required": false
-    },
-    "images": {
-      "collection": "file",
-      "via": "related",
-      "plugin": "upload",
-      "required": false
-    },
     "order": {
       "model": "order",
       "via": "products"
@@ -45,6 +33,10 @@
     "review": {
       "model": "review",
       "via": "product"
+    },
+    "cover": {
+      "default": "",
+      "type": "text"
     }
   }
 }
