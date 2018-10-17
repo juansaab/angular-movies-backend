@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "order",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "status": {
+      "default": "",
+      "type": "integer"
+    },
+    "total": {
+      "default": "",
+      "type": "integer"
+    },
+    "created_at": {
+      "default": "",
+      "type": "date"
+    },
+    "products": {
+      "collection": "product",
+      "via": "order"
+    }
+  }
+}
