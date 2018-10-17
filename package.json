@@ -19,9 +19,9 @@
     "eslint-plugin-react": "^6.8.0"
   },
   "dependencies": {
-    "lodash": "4.x.x",
-    "strapi": "3.0.0-alpha.14.1",
-    "strapi-hook-mongoose": "3.0.0-alpha.14.1"
+    "lodash": "^4.17.5",
+    "strapi": "3.0.0-alpha.14",
+    "strapi-hook-mongoose": "3.0.0-alpha.14"
   },
   "author": {
     "name": "juansaab",
